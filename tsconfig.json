@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "target": "es6",
+        "module":"es2015",
+        "jsx": "react",
+        "allowSyntheticDefaultImports": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ]
+    },
+    "include": [
+        "./src/**/*.*"
+    ]
+}

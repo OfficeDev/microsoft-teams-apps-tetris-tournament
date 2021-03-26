@@ -1,0 +1,286 @@
+@charset "utf-8";
+ :root {
+    --main-bg-color: #6264a7;
+    --main-bg-color-hover: rgb(88, 90, 150);
+    --main-bg-color-focus: rgb(70, 71, 117);
+    --main-bg-color-1: rgba(98, 100, 167, 0.1);
+    --main-bg-color-2: rgba(98, 100, 167, 0.2);
+    --main-bg-color-3: rgba(98, 100, 167, 0.3);
+    --main-bg-color-4: rgba(98, 100, 167, 0.4);
+    --main-bg-color-5: rgba(98, 100, 167, 0.5);
+    --main-bg-color-6: rgba(98, 100, 167, 0.6);
+    --main-bg-color-7: rgba(98, 100, 167, 0.7);
+    --main-bg-color-8: rgba(98, 100, 167, 0.8);
+    --main-bg-color-9: rgba(98, 100, 167, 0.9);
+    --buttion-border: rgba(255, 255, 255, 0.2);
+    --app-input-color: #212121;
+    --app-black: #252423;
+    --app-black-hover: #11100F;
+    --app-black-shadow: rgba(37, 36, 35, .5);
+    --app-black-shadow-1: rgba(37, 36, 35, .1);
+    --app-black-shadow-2: rgba(0, 0, 0, 0.1);
+    --app-black-shadow-3: rgba(0, 0, 0, 0.25);
+    --app-gray-02: #484644;
+    --app-gray-03: #605E5C;
+    --button-primary-outline-border: #E1DFDD;
+    --app-gray-04: #979593;
+    --app-gray-06: #C8C6C4;
+    --app-gray-08: #E1DFDD;
+    --app-gray-09: #Ede9eb;
+    --app-gray-10: #737373;
+    --app-gray-hover: #ebebe9;
+    --app-gray-sub-text: #6e6e6e;
+    --app-white: #f3f2f1;
+    --bg-white: #ffffff;
+    --card-bg: #faf9f8;
+    --card-border: #e7e6e5;
+    --danger-color: #C4314B;
+    --danger-bg: #f3d6db;
+    --danger-border: #eabbc2;
+    --success-color: #92C353;
+    --success-border: #92C353;
+    --success-bg: #DEEDCB;
+    --table-border: #dee2e6;
+    --font-regular: 0.875rem;
+    --font-21: 1.3125rem;
+    --font-16: 1rem;
+    --font-18: 1.125rem;
+    --font-13: 0.8125rem;
+    --font-12: 0.75rem;
+    --font-10: 0.625rem;
+    --font-30: 1.875rem;
+    --font-weight-400: 400;
+    --font-weight-600: 600;
+    --font-weight-500: 500;
+    --font-weight-800: 800;
+}
+
+.input-lg::-webkit-input-placeholder {
+    color: var(--app-gray-sub-text) !important;
+}
+
+.input-lg:-ms-input-placeholder {
+    color: var(--app-gray-sub-text) !important;
+}
+
+.input-lg::placeholder {
+    color: var(--app-gray-sub-text) !important;
+}
+
+.in-t::-webkit-input-placeholder {
+    color: var(--app-gray-sub-text) !important;
+}
+
+.in-t:-ms-input-placeholder {
+      color: var(--app-gray-sub-text) !important;
+}
+
+.in-t::placeholder {
+      color: var(--app-gray-sub-text) !important;
+}
+
+.setting-header {
+    color: var(--app) !important;
+    font-weight: var(--font-regular) !important;
+    font-size: var(--font-12) !important;
+}
+
+.setting-sub-text {
+    color: var(--app-gray-sub-text) !important;
+    font-weight: var(--font-regular) !important;
+    font-size: var(--font-12) !important;
+}
+
+.alert-danger {
+    color: var(--danger-color);
+    font-size: var(--font-12);
+    font-weight: var(--font-regular);
+}
+
+.create-view-alert-danger{
+    color: var(--danger-color);
+    font-size: var(--font-12);
+    font-weight: var(--font-regular);
+    margin-bottom: 4px;
+    text-align: right;
+}
+
+.summaryview .summary-header {
+    margin-bottom: 16px !important;
+    height: auto !important;
+}
+
+.summaryview .settings-item-title {
+    padding-bottom: 8px !important;
+    margin-bottom: 0px !important;
+   
+}
+
+.summaryview .summary-header span+span {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--app-gray-sub-text);
+   
+}
+
+.summaryview .summary-header span {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--app-input-color);
+}
+
+.summaryview .summary-header .ui-card {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid var(--card-border);
+}
+
+.timeline .pull-right {
+    color: var(--app-gray-sub-text);
+    font-size: 12px;
+}
+
+.summaryview .ui-list li {
+    padding: 8px;
+}
+
+.my-score-link {
+    display: block;
+    margin-top: 8px;
+    font-weight: var(--font-weight-600);
+}
+
+.instruction .ui-card {
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid var(--card-border);
+}
+
+.instruction .ui-card span {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--app-input-color);
+}
+
+.instruction .ui-card span+span {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--app-gray-sub-text) !important;
+}
+
+.instruction .ui-text {
+    color: var(--app-black);
+}
+
+.gameScore {
+    font-weight: 800 !important;
+    color: var(--app-input-color);
+    font-size: 16px !important;
+}
+
+.win-screen .wining-outer {
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.win-screen .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100vh;
+}
+
+.b {
+    color: var(--app-input-color);
+}
+
+.right::before {
+    top: 10px;
+}
+
+.container::after {
+    top: 14px;
+}
+
+.timeline::after {
+    border-radius: 3px;
+}
+
+.App {
+    transform: translate3d(-50%, -50%, 0);
+    width: calc(356px);
+    height: calc(356px);
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.leaderboard-link {
+    font-weight: var(--font-weight-600);
+}
+
+.game-creation-settings .date-input-view {
+    width: 50%;
+    padding-right: 4px;
+}
+
+.game-creation-settings .time-input-view {
+    width: 50%;
+    padding-left: 4px;
+}
+
+.game-creation-settings .dg> :not(:last-child) {
+    margin-right: 0rem;
+}
+
+.ui-button.hv {
+    min-width: auto;
+}
+
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+
+@media screen and (max-width: 580px) {
+    body[dir="ltr"].footer-layout,
+    body[dir="ltr"] .footer-layout {
+        padding-right: 16px !important;
+    }
+    body[dir="ltr"].footer-layout,
+    body[dir="ltr"] .footer-layout {
+        padding-left: 16px !important;
+    }
+    body[dir="ltr"].footer-layout::before,
+    body[dir="ltr"] .footer-layout::before {
+        right: 0px !important;
+    }
+    body[dir="ltr"].footer-layout::before,
+    body[dir="ltr"] .footer-layout::before {
+        left: 0px !important;
+    }
+    .summaryview .settings-item-title {
+        padding-bottom: 8px !important;
+        margin-bottom: 0px !important;
+        padding-top: 0px !important;
+       
+    }
+    .summaryview .content {
+        margin-bottom: 16px;
+    }
+
+    .game-creation-settings .settings-item-title {
+        margin-bottom: 0px !important;
+        display: block; 
+        margin-top: 16px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .App {
+        transform: translate3d(-50%, -50%, 0);
+        width: calc(320px);
+        height: calc(320px);
+        top: 50%;
+        left: 50%;
+    }
+}

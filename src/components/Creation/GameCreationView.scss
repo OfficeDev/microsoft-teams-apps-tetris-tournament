@@ -1,0 +1,83 @@
+@import "./../../scss/common.scss";
+@import "./../../scss/customStyle.scss";
+
+.settings-item-title {
+    font-weight: bold;
+    font-size: 100%;
+    .client-mobile & {
+        font-size: 13px;
+        padding-bottom: 8px;
+    }
+    .client-mobile.theme-default & {
+        color: #605e5c;
+    }
+}
+
+.settings-radio-item {
+    .desktop-web & {
+        padding: 0px 0px 8px 0px !important;
+    }
+}
+
+.settings-radio-item-last {
+    .desktop-web & {
+        padding: 0px !important;
+    }
+}
+
+.settings-indentation {
+    .desktop-web & {
+        @include resolve-dir(margin-left, 16px);
+    }
+}
+
+.settings-item-margin {
+    margin-bottom: 16px !important;
+    .client-mobile & {
+        margin-top: 14px !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+.due-by-pickers-container {
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+.adjust-checkbox .ec {
+    grid-template-columns: 1fr 0rem auto;    
+}
+
+.item-content {
+    font-size: 16px;
+    .client-mobile & {
+      font-size: 16px;
+    }
+  }
+
+.checklist-checkbox {
+    column-gap: unset !important;
+}
+
+.checklist-checkbox .hh {
+    background-repeat: unset !important;
+}
+
+.checkbox-gap {
+    @include resolve-dir(padding-right, 5px);
+}
+
+.checklist-input-completed-item {
+    border-bottom-color: transparent !important;
+}
+
+.setting-check-box-padding {
+    padding: 2px 12px 0px 0px !important;
+}
+
+.additional-setting-paddig {
+    padding: 8px 16px 0px 0px !important;
+}
+.additinal-setting-container-padding {
+    padding: 16px 0px 0px 0px;
+}

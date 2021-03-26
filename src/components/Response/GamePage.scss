@@ -1,0 +1,167 @@
+@import "./../../scss/common.scss";
+@import "./../../scss/customStyle.scss";
+
+.blockStyle {
+    height: 80;
+    width: 80;
+    background: rgb(137, 81, 81);
+    margin: 3;
+    display: flex;
+    justify-content: center;
+    align-items: cente;
+    font-size: 45;
+    font-weight: 800;
+    color: white;
+    border-radius: 10
+}
+
+.newGameButton {
+    position: absolute;
+    padding: 10;
+    background: #846F5B;
+    color: #F8F5F0;
+    width: 95;
+    border-radius: 7;
+    font-weight: 900;
+    margin-left: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+.tryAgainButton {
+    position: absolute;
+    padding: 10;
+    background: #846F5B;
+    color: #F8F5F0;
+    width: 80;
+    border-radius: 7;
+    font-weight: 900;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20;
+}
+
+.gameOverOverlay {
+    position: absolute;
+    height: 100;
+    width: 100;
+    left: 0;
+    top: 0;
+    border-radius: 5;
+    background: rgba(238, 228, 218, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameScore {
+    text-align: center;
+    font-size: larger;
+    padding: 10;
+    font-weight: 900;
+    margin: auto;
+}
+
+.body-container {
+    height: 90%;
+    width: 90%;
+    padding: 5%;
+}
+
+.gameColor {
+    color: #645B52
+}
+
+.checklist-checkbox {
+    column-gap: unset !important;
+}
+
+.instruction .eu {
+    padding-left: 0px;
+}
+
+.instruction .ui-card {
+    padding: 8px;
+}
+
+.instruction .ui-checkbox.ao.el.en {
+    padding-left: 0px;
+}
+
+.instruction .ui-card span {
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--app-input-color);
+}
+
+.instruction .ui-card span+span {
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--app-input-color);
+}
+
+.wining-outer {
+    width: 100%;
+    text-align: center;
+    display: table;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 80vh;
+}
+
+.App {
+    transform: translate3d(-50%, -50%, 0);
+    width: calc(356px);
+    height: calc(356px);
+    background-color: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .App {
+        transform: translate3d(-50%, -50%, 0);
+        width: calc(320px);
+        height: calc(320px);
+        top: 50%;
+        left: 50%;
+    }
+}
+
+.checklist-checkbox {
+    column-gap: unset !important;
+}
+
+.checkbox-gap {
+    @include resolve-dir(padding-right, 5px);
+}
+
+.checklist-checkbox .ge {
+    background-repeat: unset !important;
+}
+
+.checklist-input-completed-item {
+    border-bottom-color: transparent !important;
+}
+
+.instruction-card-background-color {
+    background-color: rgb(250, 249, 248) !important;
+}
+
+.instruction-content-padding {
+    padding-top: 4px !important;
+}
+
+.checkbox-top-padding {
+    padding: 16px 0px 0px 0px  !important;
+}
+.action-button-color{
+    color: #212121 !important;
+}
+.game-clear-both {
+    clear: both !important;
+}
