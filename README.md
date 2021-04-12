@@ -1,4 +1,4 @@
-# Tetris Template
+# Tetris Tournament App Template
 
 | [Documentation](https://github.com/OfficeDev/microsoft-teams-apps-tetris-tournament/wiki/Home) | [Deployment guide](https://github.com/OfficeDev/microsoft-teams-apps-tetris-tournament/wiki/Deployment-guide) | [Architecture](https://github.com/OfficeDev/microsoft-teams-apps-tetris-tournament/wiki/Solution-overview) | [Costing](https://github.com/OfficeDev/microsoft-teams-apps-tetris-tournament/wiki/Costing) |
 | ----- | ---- | ---- | ---- |
